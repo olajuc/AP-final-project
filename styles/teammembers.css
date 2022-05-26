@@ -1,0 +1,125 @@
+.first-row-wrapper {
+  max-width: 1110px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.first-row-wrapper .first-column {
+}
+.first-row-wrapper .second-column {
+  margin-top: 100px;
+}
+
+.first-row-wrapper h1 {
+  font-style: bold;
+  font-weight: 700;
+  font-size: 60px;
+  text-align: left;
+  margin-top: 100px;
+  max-width: 756px;
+}
+.first-row-wrapper p {
+  margin-top: 62px;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+  max-width: 580px;
+}
+/* second row */
+.team-wrapper {
+  max-width: 1110px;
+  margin: auto;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 130px;
+  margin-bottom: 180px;
+}
+
+.news-box {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  height: 565px;
+  margin: 10px;
+  margin-bottom: 100px;
+}
+
+.news-box .news-box-img img {
+  width: 353px;
+  height: 353px;
+}
+
+.news-box h1 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.news-box .author {
+  font-weight: 400;
+  font-size: 17px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.news-box h4 {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 5px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.news-box .p-discription {
+  font-weight: 500;
+  font-size: 15px;
+}
+/* Third row */
+.third-row-main-wrapper {
+  height: 430px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+ background: rgba(244, 244, 244, 1);
+}
+
+.third-row-main-wrapper h1{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.third-row-main-wrapper .pictures{
+    max-width: 1160px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pic1{
+width: 300px;
+height: 50px;
+margin-top: 100px;
+margin-right: 110px;
+}
+.pic2{
+width: 270px;
+height: 55px;
+margin-top: 100px;
+margin-right: 80px;
+
+}
+.pic3{
+width: 300px;
+height: 155px;
+margin-top: 40px;
+}

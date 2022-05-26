@@ -1,0 +1,65 @@
+.first-row-wrapper {
+  max-width: 1080px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-row-wrapper h1 {
+  font-style: bold;
+  font-weight: 700;
+  font-size: 80px;
+  text-align: left;
+  margin-top: 100px;
+  max-width: 756px;
+}
+.first-row-wrapper p {
+  margin-top: 62px;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+  max-width: 580px;
+}
+/* Main contetn styles */
+.pluto-learn-main-wrapper {
+  max-width: 1110px;
+  margin: auto;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 130px;
+  margin-bottom: 180px;
+}
+
+.news-box {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  height: 485px;
+  margin: 10px;
+  margin-top: 100px;
+}
+
+.news-box .news-box-img img {
+  border-radius: 21px;
+  width: 350px;
+  height: 290px;
+}
+
+.news-box h1 {
+  font-weight: bold;
+  font-size: 23px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.news-box .author {
+  font-weight: 600;
+  font-size: 9px;
+  margin-bottom: 20px;
+}
+
+.news-box .p-discription {
+  font-weight: 500;
+  font-size: 15px;
+}

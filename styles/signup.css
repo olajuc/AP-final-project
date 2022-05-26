@@ -1,0 +1,84 @@
+.first-row-wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 1110px;
+    margin: auto;
+    margin-top: 102px;
+    margin-bottom: 50px;
+
+}
+.first-row-title{
+    display: flex;
+    flex-direction: row;
+        font-size: 40px;
+        line-height: 60px;
+}
+.first-row-title h1:last-child{
+    margin-left: 30px;
+    color: rgba(14, 204, 115, 1);   
+}
+.first-row-wrapper p{
+    max-width: 610px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* second row */
+.second-row-wrapper{
+    display: flex;
+    flex-direction: row;
+    max-width: 1110px;
+    margin: auto;
+    justify-content: space-around;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+input{
+    margin-top: 18px;
+    width: 480px;
+    height: 60px;
+    text-align: left;
+    padding-left: 30px;
+    background: rgba(221, 221, 221, 0.5);
+    border-radius: 24px;
+    border: none;
+}
+.forgot{
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.create{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+}
+.create a{
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+form button{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 12px 38px 12px 38px;
+    width: 180px;
+    height: 60px;
+    background-color: rgba(14, 204, 115, 1);
+    border-radius: 40px;
+    border: none;
+
+}
+
+.second-row-wrapper img{
+    width: 640px;
+    height: 420px;
+}

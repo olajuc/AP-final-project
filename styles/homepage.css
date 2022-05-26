@@ -1,0 +1,230 @@
+
+/* First row Styles */
+.first-row-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  max-width: 1300px;
+  margin: auto;
+  margin-bottom: 210px;
+}
+
+.first-row-wrapper .first-column {
+  position: relative;
+}
+
+.first-row-wrapper .first-column div img {
+  position: absolute;
+  top: 300px;
+  right: -860px;
+}
+.first-row-wrapper .first-column button {
+  position: absolute;
+  bottom: 0px;
+  right: -400px;
+  padding: 8px 20px 8px 20px;
+  background-color: #0ecc73;
+  color: white;
+  border-radius: 50px;
+  height: 53px;
+  width: 264px;
+  border-radius: 40px;
+  border: solid 1px #0ecc73;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+}
+.first-row-wrapper .second-column img {
+  float: right;
+}
+
+/* Second row Styles */
+.second-row-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  max-width: 1100px;
+  margin: auto;
+  margin-bottom: 150px;
+}
+
+.second-row-wrapper .first-column div img {
+  height: 530px;
+  width: 415px;
+}
+
+.second-row-wrapper .second-column {
+  width: 500px;
+  height: 530px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.second-row-wrapper .second-column h1 {
+  font-weight: 900;
+  font-size: 60px;
+  max-width: 380px;
+  float: left;
+  text-align: left;
+  line-height: 60px;
+  margin-bottom: 50px;
+}
+
+.second-row-wrapper .second-column div {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  float: right;
+  font-weight: 400, Regular;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 10px;
+  margin-top: 10px;
+  max-width: 420px;
+}
+.second-row-wrapper .second-column div img {
+  height: 70px;
+  margin-right: 50px;
+}
+
+/* Third row styles */
+.third-row-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  max-width: 1100px;
+  margin: auto;
+  margin-bottom: 150px;
+}
+.third-row-wrapper .first-column {
+  width: 550px;
+  height: 530px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.third-row-wrapper .first-column h1 {
+  font-weight: 900;
+  font-size: 60px;
+  max-width: 550px;
+  float: left;
+  text-align: left;
+  line-height: 60px;
+  margin-bottom: 50px;
+}
+
+.third-row-wrapper .first-column div {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  float: right;
+  font-weight: 400, Regular;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 10px;
+  margin-top: 10px;
+  max-width: 420px;
+}
+.third-row-wrapper .first-column div img {
+  height: 70px;
+  margin-right: 50px;
+}
+.third-row-wrapper .second-column div img {
+  height: 550px;
+  width: 500px;
+}
+
+/* 4th row Styles */
+.fourth-row-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  max-width: 1100px;
+  margin: auto;
+  margin-bottom: 150px;
+}
+
+.fourth-row-wrapper .first-column div img {
+  height: 530px;
+  width: 415px;
+}
+
+.fourth-row-wrapper .second-column {
+  width: 500px;
+  height: 530px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fourth-row-wrapper .second-column h1 {
+  font-weight: 900;
+  font-size: 60px;
+  max-width: 380px;
+  float: left;
+  text-align: left;
+  line-height: 60px;
+  margin-bottom: 50px;
+}
+
+.fourth-row-wrapper .second-column div {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  float: right;
+  font-weight: 400, Regular;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 10px;
+  margin-top: 10px;
+  max-width: 420px;
+}
+.fourth-row-wrapper .second-column div img {
+  height: 70px;
+  margin-right: 50px;
+}
+/* 5th row Styles */
+.fifth-row-wrapper{
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px;
+  background: #F9F9F9;
+  border-radius: 55.4766px;
+  height: 550px;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+.fifth-row-wrapper h1{
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 60px;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+  max-width: 550px;
+}
+.fifth-row-wrapper .links-wrapper{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-bottom: 50px;
+  max-width: 400px;
+  padding-bottom: 50px;
+}
+
+.fifth-row-wrapper .links-wrapper a img:first-child{
+  height: 800px;
+  width: 200px;
+  margin: 10px;
+}
+.fifth-row-wrapper .links-wrapper a img:last-child{
+  height: 76px;
+  width: 200px;
+}
